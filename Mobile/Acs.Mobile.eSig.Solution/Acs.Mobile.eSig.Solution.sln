@@ -1,0 +1,186 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{92D75691-2663-4A27-9A73-BF6F79D6EA8D}"
+	ProjectSection(SolutionItems) = preProject
+		Just Notes During Dev.txt = Just Notes During Dev.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acs.Mobile.ESig", "Acs.Mobile.eSig\Acs.Mobile.ESig.csproj", "{FD2719F7-A5A5-4B9F-A4E9-71ABD30F7B74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acs.Mobile.ESig.Droid", "Acs.Mobile.eSig.Droid\Acs.Mobile.ESig.Droid.csproj", "{FF65F12B-F5E9-4453-A58E-2B5B32E8590A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acs.Mobile.ESig.iOS", "Acs.Mobile.eSig.iOS\Acs.Mobile.ESig.iOS.csproj", "{8596350F-7C23-4C48-BBF2-F37881386CC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acs.Mobile.ESig.UWP", "Acs.Mobile.eSig.UWP\Acs.Mobile.ESig.UWP.csproj", "{0C80B2EB-37B2-4C00-9A5C-E9F2D4538FA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acs.Common.Services", "..\..\Common\Services\Acs.Common.Services\Acs.Common.Services.csproj", "{AB8C2F68-3464-4A5C-8D73-5FA5428D8D3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acs.Mobile.Core", "..\..\Core\Acs.Mobile.Core\Acs.Mobile.Core.csproj", "{7F81B6B6-9FF6-44F1-8288-FEDA72A0305C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acs.Common.Domain", "Acs.Common.Domain.Models\Acs.Common.Domain.csproj", "{08F0C97C-C71E-4BDA-A4F0-FB34145FD77B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD2719F7-A5A5-4B9F-A4E9-71ABD30F7B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD2719F7-A5A5-4B9F-A4E9-71ABD30F7B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD2719F7-A5A5-4B9F-A4E9-71ABD30F7B74}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{FD2719F7-A5A5-4B9F-A4E9-71ABD30F7B74}.Debug|ARM.Build.0 = Debug|Any CPU
+		{FD2719F7-A5A5-4B9F-A4E9-71ABD30F7B74}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FD2719F7-A5A5-4B9F-A4E9-71ABD30F7B74}.Debug|x64.Build.0 = Debug|Any CPU
+		{FD2719F7-A5A5-4B9F-A4E9-71ABD30F7B74}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FD2719F7-A5A5-4B9F-A4E9-71ABD30F7B74}.Debug|x86.Build.0 = Debug|Any CPU
+		{FD2719F7-A5A5-4B9F-A4E9-71ABD30F7B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD2719F7-A5A5-4B9F-A4E9-71ABD30F7B74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD2719F7-A5A5-4B9F-A4E9-71ABD30F7B74}.Release|ARM.ActiveCfg = Release|Any CPU
+		{FD2719F7-A5A5-4B9F-A4E9-71ABD30F7B74}.Release|ARM.Build.0 = Release|Any CPU
+		{FD2719F7-A5A5-4B9F-A4E9-71ABD30F7B74}.Release|x64.ActiveCfg = Release|Any CPU
+		{FD2719F7-A5A5-4B9F-A4E9-71ABD30F7B74}.Release|x64.Build.0 = Release|Any CPU
+		{FD2719F7-A5A5-4B9F-A4E9-71ABD30F7B74}.Release|x86.ActiveCfg = Release|Any CPU
+		{FD2719F7-A5A5-4B9F-A4E9-71ABD30F7B74}.Release|x86.Build.0 = Release|Any CPU
+		{FF65F12B-F5E9-4453-A58E-2B5B32E8590A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF65F12B-F5E9-4453-A58E-2B5B32E8590A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF65F12B-F5E9-4453-A58E-2B5B32E8590A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FF65F12B-F5E9-4453-A58E-2B5B32E8590A}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{FF65F12B-F5E9-4453-A58E-2B5B32E8590A}.Debug|ARM.Build.0 = Debug|Any CPU
+		{FF65F12B-F5E9-4453-A58E-2B5B32E8590A}.Debug|ARM.Deploy.0 = Debug|Any CPU
+		{FF65F12B-F5E9-4453-A58E-2B5B32E8590A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FF65F12B-F5E9-4453-A58E-2B5B32E8590A}.Debug|x64.Build.0 = Debug|Any CPU
+		{FF65F12B-F5E9-4453-A58E-2B5B32E8590A}.Debug|x64.Deploy.0 = Debug|Any CPU
+		{FF65F12B-F5E9-4453-A58E-2B5B32E8590A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FF65F12B-F5E9-4453-A58E-2B5B32E8590A}.Debug|x86.Build.0 = Debug|Any CPU
+		{FF65F12B-F5E9-4453-A58E-2B5B32E8590A}.Debug|x86.Deploy.0 = Debug|Any CPU
+		{FF65F12B-F5E9-4453-A58E-2B5B32E8590A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF65F12B-F5E9-4453-A58E-2B5B32E8590A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF65F12B-F5E9-4453-A58E-2B5B32E8590A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FF65F12B-F5E9-4453-A58E-2B5B32E8590A}.Release|ARM.ActiveCfg = Release|Any CPU
+		{FF65F12B-F5E9-4453-A58E-2B5B32E8590A}.Release|ARM.Build.0 = Release|Any CPU
+		{FF65F12B-F5E9-4453-A58E-2B5B32E8590A}.Release|ARM.Deploy.0 = Release|Any CPU
+		{FF65F12B-F5E9-4453-A58E-2B5B32E8590A}.Release|x64.ActiveCfg = Release|Any CPU
+		{FF65F12B-F5E9-4453-A58E-2B5B32E8590A}.Release|x64.Build.0 = Release|Any CPU
+		{FF65F12B-F5E9-4453-A58E-2B5B32E8590A}.Release|x64.Deploy.0 = Release|Any CPU
+		{FF65F12B-F5E9-4453-A58E-2B5B32E8590A}.Release|x86.ActiveCfg = Release|Any CPU
+		{FF65F12B-F5E9-4453-A58E-2B5B32E8590A}.Release|x86.Build.0 = Release|Any CPU
+		{FF65F12B-F5E9-4453-A58E-2B5B32E8590A}.Release|x86.Deploy.0 = Release|Any CPU
+		{8596350F-7C23-4C48-BBF2-F37881386CC9}.Debug|Any CPU.ActiveCfg = Debug|iPhone
+		{8596350F-7C23-4C48-BBF2-F37881386CC9}.Debug|ARM.ActiveCfg = Debug|iPhone
+		{8596350F-7C23-4C48-BBF2-F37881386CC9}.Debug|x64.ActiveCfg = Debug|iPhone
+		{8596350F-7C23-4C48-BBF2-F37881386CC9}.Debug|x86.ActiveCfg = Debug|iPhone
+		{8596350F-7C23-4C48-BBF2-F37881386CC9}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{8596350F-7C23-4C48-BBF2-F37881386CC9}.Release|ARM.ActiveCfg = Release|iPhone
+		{8596350F-7C23-4C48-BBF2-F37881386CC9}.Release|x64.ActiveCfg = Release|iPhone
+		{8596350F-7C23-4C48-BBF2-F37881386CC9}.Release|x86.ActiveCfg = Release|iPhone
+		{0C80B2EB-37B2-4C00-9A5C-E9F2D4538FA7}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{0C80B2EB-37B2-4C00-9A5C-E9F2D4538FA7}.Debug|ARM.ActiveCfg = Debug|ARM
+		{0C80B2EB-37B2-4C00-9A5C-E9F2D4538FA7}.Debug|ARM.Build.0 = Debug|ARM
+		{0C80B2EB-37B2-4C00-9A5C-E9F2D4538FA7}.Debug|ARM.Deploy.0 = Debug|ARM
+		{0C80B2EB-37B2-4C00-9A5C-E9F2D4538FA7}.Debug|x64.ActiveCfg = Debug|x64
+		{0C80B2EB-37B2-4C00-9A5C-E9F2D4538FA7}.Debug|x64.Build.0 = Debug|x64
+		{0C80B2EB-37B2-4C00-9A5C-E9F2D4538FA7}.Debug|x64.Deploy.0 = Debug|x64
+		{0C80B2EB-37B2-4C00-9A5C-E9F2D4538FA7}.Debug|x86.ActiveCfg = Debug|x86
+		{0C80B2EB-37B2-4C00-9A5C-E9F2D4538FA7}.Debug|x86.Build.0 = Debug|x86
+		{0C80B2EB-37B2-4C00-9A5C-E9F2D4538FA7}.Debug|x86.Deploy.0 = Debug|x86
+		{0C80B2EB-37B2-4C00-9A5C-E9F2D4538FA7}.Release|Any CPU.ActiveCfg = Release|x86
+		{0C80B2EB-37B2-4C00-9A5C-E9F2D4538FA7}.Release|ARM.ActiveCfg = Release|ARM
+		{0C80B2EB-37B2-4C00-9A5C-E9F2D4538FA7}.Release|ARM.Build.0 = Release|ARM
+		{0C80B2EB-37B2-4C00-9A5C-E9F2D4538FA7}.Release|ARM.Deploy.0 = Release|ARM
+		{0C80B2EB-37B2-4C00-9A5C-E9F2D4538FA7}.Release|x64.ActiveCfg = Release|x64
+		{0C80B2EB-37B2-4C00-9A5C-E9F2D4538FA7}.Release|x64.Build.0 = Release|x64
+		{0C80B2EB-37B2-4C00-9A5C-E9F2D4538FA7}.Release|x64.Deploy.0 = Release|x64
+		{0C80B2EB-37B2-4C00-9A5C-E9F2D4538FA7}.Release|x86.ActiveCfg = Release|x86
+		{0C80B2EB-37B2-4C00-9A5C-E9F2D4538FA7}.Release|x86.Build.0 = Release|x86
+		{0C80B2EB-37B2-4C00-9A5C-E9F2D4538FA7}.Release|x86.Deploy.0 = Release|x86
+		{AB8C2F68-3464-4A5C-8D73-5FA5428D8D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8C2F68-3464-4A5C-8D73-5FA5428D8D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8C2F68-3464-4A5C-8D73-5FA5428D8D3B}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{AB8C2F68-3464-4A5C-8D73-5FA5428D8D3B}.Debug|ARM.Build.0 = Debug|Any CPU
+		{AB8C2F68-3464-4A5C-8D73-5FA5428D8D3B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AB8C2F68-3464-4A5C-8D73-5FA5428D8D3B}.Debug|x64.Build.0 = Debug|Any CPU
+		{AB8C2F68-3464-4A5C-8D73-5FA5428D8D3B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AB8C2F68-3464-4A5C-8D73-5FA5428D8D3B}.Debug|x86.Build.0 = Debug|Any CPU
+		{AB8C2F68-3464-4A5C-8D73-5FA5428D8D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8C2F68-3464-4A5C-8D73-5FA5428D8D3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB8C2F68-3464-4A5C-8D73-5FA5428D8D3B}.Release|ARM.ActiveCfg = Release|Any CPU
+		{AB8C2F68-3464-4A5C-8D73-5FA5428D8D3B}.Release|ARM.Build.0 = Release|Any CPU
+		{AB8C2F68-3464-4A5C-8D73-5FA5428D8D3B}.Release|x64.ActiveCfg = Release|Any CPU
+		{AB8C2F68-3464-4A5C-8D73-5FA5428D8D3B}.Release|x64.Build.0 = Release|Any CPU
+		{AB8C2F68-3464-4A5C-8D73-5FA5428D8D3B}.Release|x86.ActiveCfg = Release|Any CPU
+		{AB8C2F68-3464-4A5C-8D73-5FA5428D8D3B}.Release|x86.Build.0 = Release|Any CPU
+		{7F81B6B6-9FF6-44F1-8288-FEDA72A0305C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F81B6B6-9FF6-44F1-8288-FEDA72A0305C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F81B6B6-9FF6-44F1-8288-FEDA72A0305C}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{7F81B6B6-9FF6-44F1-8288-FEDA72A0305C}.Debug|ARM.Build.0 = Debug|Any CPU
+		{7F81B6B6-9FF6-44F1-8288-FEDA72A0305C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7F81B6B6-9FF6-44F1-8288-FEDA72A0305C}.Debug|x64.Build.0 = Debug|Any CPU
+		{7F81B6B6-9FF6-44F1-8288-FEDA72A0305C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7F81B6B6-9FF6-44F1-8288-FEDA72A0305C}.Debug|x86.Build.0 = Debug|Any CPU
+		{7F81B6B6-9FF6-44F1-8288-FEDA72A0305C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F81B6B6-9FF6-44F1-8288-FEDA72A0305C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F81B6B6-9FF6-44F1-8288-FEDA72A0305C}.Release|ARM.ActiveCfg = Release|Any CPU
+		{7F81B6B6-9FF6-44F1-8288-FEDA72A0305C}.Release|ARM.Build.0 = Release|Any CPU
+		{7F81B6B6-9FF6-44F1-8288-FEDA72A0305C}.Release|x64.ActiveCfg = Release|Any CPU
+		{7F81B6B6-9FF6-44F1-8288-FEDA72A0305C}.Release|x64.Build.0 = Release|Any CPU
+		{7F81B6B6-9FF6-44F1-8288-FEDA72A0305C}.Release|x86.ActiveCfg = Release|Any CPU
+		{7F81B6B6-9FF6-44F1-8288-FEDA72A0305C}.Release|x86.Build.0 = Release|Any CPU
+		{08F0C97C-C71E-4BDA-A4F0-FB34145FD77B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08F0C97C-C71E-4BDA-A4F0-FB34145FD77B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08F0C97C-C71E-4BDA-A4F0-FB34145FD77B}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{08F0C97C-C71E-4BDA-A4F0-FB34145FD77B}.Debug|ARM.Build.0 = Debug|Any CPU
+		{08F0C97C-C71E-4BDA-A4F0-FB34145FD77B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{08F0C97C-C71E-4BDA-A4F0-FB34145FD77B}.Debug|x64.Build.0 = Debug|Any CPU
+		{08F0C97C-C71E-4BDA-A4F0-FB34145FD77B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{08F0C97C-C71E-4BDA-A4F0-FB34145FD77B}.Debug|x86.Build.0 = Debug|Any CPU
+		{08F0C97C-C71E-4BDA-A4F0-FB34145FD77B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08F0C97C-C71E-4BDA-A4F0-FB34145FD77B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08F0C97C-C71E-4BDA-A4F0-FB34145FD77B}.Release|ARM.ActiveCfg = Release|Any CPU
+		{08F0C97C-C71E-4BDA-A4F0-FB34145FD77B}.Release|ARM.Build.0 = Release|Any CPU
+		{08F0C97C-C71E-4BDA-A4F0-FB34145FD77B}.Release|x64.ActiveCfg = Release|Any CPU
+		{08F0C97C-C71E-4BDA-A4F0-FB34145FD77B}.Release|x64.Build.0 = Release|Any CPU
+		{08F0C97C-C71E-4BDA-A4F0-FB34145FD77B}.Release|x86.ActiveCfg = Release|Any CPU
+		{08F0C97C-C71E-4BDA-A4F0-FB34145FD77B}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E68C9029-113D-45BE-9C23-7C38A8B2F264}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://accessefm.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Acs.Mobile.eSig.Droid\\Acs.Mobile.ESig.Droid.csproj
+		SccProjectName1 = Acs.Mobile.eSig.Droid
+		SccLocalPath1 = Acs.Mobile.eSig.Droid
+		SccProjectUniqueName2 = ..\\..\\Common\\Services\\Acs.Common.Services\\Acs.Common.Services.csproj
+		SccProjectName2 = ../../Common/Services/Acs.Common.Services
+		SccLocalPath2 = ..\\..\\Common\\Services\\Acs.Common.Services
+		SccProjectUniqueName3 = Acs.Mobile.eSig\\Acs.Mobile.ESig.csproj
+		SccProjectName3 = Acs.Mobile.eSig
+		SccLocalPath3 = Acs.Mobile.eSig
+		SccProjectUniqueName4 = Acs.Mobile.eSig.iOS\\Acs.Mobile.ESig.iOS.csproj
+		SccProjectName4 = Acs.Mobile.eSig.iOS
+		SccLocalPath4 = Acs.Mobile.eSig.iOS
+		SccProjectUniqueName5 = Acs.Mobile.eSig.UWP\\Acs.Mobile.ESig.UWP.csproj
+		SccProjectName5 = Acs.Mobile.eSig.UWP
+		SccLocalPath5 = Acs.Mobile.eSig.UWP
+		SccProjectUniqueName6 = ..\\..\\Core\\Acs.Mobile.Core\\Acs.Mobile.Core.csproj
+		SccProjectName6 = ../../Core/Acs.Mobile.Core
+		SccLocalPath6 = ..\\..\\Core\\Acs.Mobile.Core
+		SccProjectUniqueName7 = Acs.Common.Domain.Models\\Acs.Common.Domain.csproj
+		SccProjectName7 = Acs.Common.Domain.Models
+		SccLocalPath7 = Acs.Common.Domain.Models
+	EndGlobalSection
+EndGlobal
